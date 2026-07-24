@@ -1,0 +1,11 @@
+node_modules/
+.pnp
+.env
+.env.local
+.vercel/
+.next/
+dist/
+.idea/
+.vscode/
+.DS_Store
+generated/
