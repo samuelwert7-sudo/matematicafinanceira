@@ -1,0 +1,35 @@
+{
+  "name": "hp-academy",
+  "version": "1.0.0",
+  "description": "Plataforma interativa de Matemática Financeira com HP 12C",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext ts,tsx",
+    "db:push": "prisma db push",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "next-auth": "^5.0.0-beta.24",
+    "@prisma/client": "^5.20.0",
+    "zustand": "^4.5.2",
+    "tailwindcss": "^3.4.1",
+    "next-themes": "^0.3.0",
+    "sonner": "^1.4.41",
+    "zod": "^3.23.8",
+    "framer-motion": "^10.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.4",
+    "eslint": "^8.57.0",
+    "prisma": "^5.20.0"
+  }
+}
